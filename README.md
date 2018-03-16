@@ -1,12 +1,12 @@
 # CRISPR
 High density pipeline
 
-#Authored by Lu Yang, PhD, Department of System biology @ City of Hope.
-#v3 add sam to bed file conversion on 1/9/2018
-#v4 modify bowtie2 alignment options and downstream sam extract criterias on 1/10/2018
-#lib gRNA_id naming format:  Species_gene_pos_strand,  eg:  Ms_Dot1l_4129_-
-#v5a, add step to check duplicated sgRNA sequences and keep only one since it's all from the same gene with different synonyms,export duplicate list
-#v5b, add step to automatically check sgRNA length based on provided library, to the run_crispr_count_Apollo_v5.sh
+#Authored by Lu Yang, PhD, Department of System biology @ City of Hope. 
+#v3 add sam to bed file conversion on 1/9/2018 
+#v4 modify bowtie2 alignment options and downstream sam extract criterias on 1/10/2018 
+#lib gRNA_id naming format:  Species_gene_pos_strand,  eg:  Ms_Dot1l_4129_-  
+#v5a, add step to check duplicated sgRNA sequences and keep only one since it's all from the same gene with different synonyms,export duplicate list  
+#v5b, add step to automatically check sgRNA length based on provided library, to the run_crispr_count_Apollo_v5.sh  
 
 
 
